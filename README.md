@@ -7,11 +7,17 @@ Steps to execute server:
 Steps to compile RMI
 
 >javac BankIntf.java
+
 >javac AccountImpl.java
+
 >javac BankServer.java
+
 >javac BankClient.java
+
 >rmic BankImpl
+
 >start rmiregistry
+
 >java BankServer
 
 
